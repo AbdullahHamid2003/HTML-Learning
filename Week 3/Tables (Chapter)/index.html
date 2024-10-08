@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Normal Table</h1>
+    <table bgcolor="yellow" border="2px">
+        <tr>
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Roll no.</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td>Abdullah</td>
+            <td>Hamid</td>
+            <td>264</td>
+            <td>abdullah.hamid955@gmail.com</td>
+        </tr>
+    </table>
+    <hr/>
+
+    <h1>Row spanning & column spanning</h1>
+    <h3>Row spanning:</h3>
+    <table bgcolor="aqua" border="2px">
+        <tr>
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Roll no.</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Abdullah</td>
+            <td>Hamid</td>
+            <td rowspan="2">264</td>
+            <td>abdullah.hamid955@gmail.com</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Abdullah</td> -->
+            <td>Hamid</td>
+            <!-- <td>264</td> -->
+            <td>abdullah.hamid955@gmail.com</td>
+        </tr> 
+    </table >
+    <hr/>
+    <h3>Column Spanning:</h3>
+    <table bgcolor="burlywood" border="2px  ">
+        <tr>
+            <th colspan="2">Name</th>
+            <!-- <th>Father Name</th> -->
+            <th>Roll no.</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Abdullah</td>
+            <td>Hamid</td>
+            <td>264</td>
+            <td>abdullah.hamid955@gmail.com</td>
+        </tr>
+    </table>
+    <hr/>
+    
+    <h1>Task</h1>
+    <table border="2">
+        <tr bgcolor="Orange">            
+            <th colspan="2">ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm-7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm-8pm</th>
+            <!-- <td>Movie</td> -->
+            <td>Sports</td>
+            <td>Current Affairs</td>
+        </tr>
+    </table>
+    <hr/>
+
+    <h1>Cell Spacing & Cell pading</h1>
+    <table cellspacing="5px" cellpading="5px" border="2px">
+        <tr>
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Roll no.</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td>Abdullah</td>
+            <td>Hamid</td>
+            <td>264</td>
+            <td>abdullah.hamid955@gmail.com</td>
+        </tr>
+    </table>
+    <hr/>
+</body>
+</html>

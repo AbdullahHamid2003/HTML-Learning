@@ -1,0 +1,57 @@
+*{
+    background-color: black;
+    color: white;
+}
+P{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;           /*b default font size is 16 px, 100% of font size is equals to 16px*/
+    font-weight: bold;
+    font-style: italic;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    color: white;
+    text-transform: capitalize;
+    line-height: 20px;
+    word-spacing: 20px;
+    letter-spacing: 25px;
+}
+.header>ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    /* justify-content: space-around; */
+    background-color: black;
+    color: white;
+    height: 40px;
+    /* text-align: center; */
+}
+.UL>li{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#a1{
+    text-decoration: none ;
+    color: chocolate;
+}
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 500px;
+}
+#pro{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 550px;
+}
+h1:hover{
+    color: rgb(33, 110, 110);
+}
+h1{
+  text-shadow: 3px 3px 2px brown;
+}

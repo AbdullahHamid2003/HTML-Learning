@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input disabled type="text" placeholder="0" name="" id="display">
+        </div>
+
+        <div class="Allbuttons">
+            <button class="button" onclick="inputval(1)">1</button>
+            <button class="button" onclick="inputval(2)">2</button>
+            <button class="button" onclick="inputval(3)">3</button>
+            <button class="button" onclick="inputval('+')">+</button>
+            <button class="button" onclick="inputval(4)">4</button>
+            <button class="button" onclick="inputval(5)">5</button>
+            <button class="button" onclick="inputval(6)">6</button>
+            <button class="button" onclick="inputval('-')">-</button>
+            <button class="button" onclick="inputval(7)">7</button>   
+            <button class="button" onclick="inputval(8)">8</button>
+            <button class="button" onclick="inputval(9)">9</button>
+            <button class="button" onclick="inputval('*')">x</button>
+            <button class="button" onclick="clearAll()">C</button>
+            <button class="button" onclick="inputval(0)">0</button>
+            <button class="button" onclick="calVal()">=</button>
+            <button class="button" onclick="inputval('/')">/</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

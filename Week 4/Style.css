@@ -1,0 +1,19 @@
+h1{
+    color: darkcyan;
+    font-size: 40px;
+}
+#para1{
+    color: red;
+}
+.para2{
+    color: chocolate;
+}
+body{
+    background-color: black;
+}
+li>a{
+    background-color: antiquewhite;
+}
+h1~p{
+    color: rgb(19, 235, 153); 
+}
